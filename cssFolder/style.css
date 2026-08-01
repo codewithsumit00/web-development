@@ -1,0 +1,49 @@
+
+h1 {
+    color: green;
+    background-color: palevioletred;
+    
+
+}
+
+button{
+    color:white ;
+    background-color: blue;
+     animation: arr 5s infinite;
+}
+
+h2 {
+    color: orange;
+    background-color: rgb(255, 0,25);
+     animation: arr 4s infinite;
+}
+
+p{
+    background-color: black;
+    color:white;
+     animation: arr 2s infinite;
+}
+
+h3{
+    color: #ffffff;
+    background-color: #0000ff;
+    animation: arr 1s infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    
+}
+
+@keyframes arr{
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    20%{
+        background-color: chartreuse;
+    }
+
+}
