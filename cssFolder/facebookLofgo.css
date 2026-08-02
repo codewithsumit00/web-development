@@ -1,0 +1,77 @@
+h1{
+    font-family:Courier New;
+    color: #e41b1b;
+}
+
+#login{
+    background: aqua;    color: white;
+}
+
+#register{
+    background-color: aqua;
+    color: white;
+}
+
+#search{
+    background-color: black;
+    color: white;
+}
+
+
+nav ul  {
+    color:blueviolet;
+    
+}
+
+input[type="text"]{
+    color:rgb(179, 74, 46);
+  
+
+}
+input[type="password"]{
+    color:#e41b1b
+}
+
+input[type]{
+background-color:bisque;
+}
+
+
+/*  hover prooerty  */
+button:hover{
+    color:rgb(155, 5, 5);
+    background-color: green;
+}
+/* active property  */
+button:active{
+    color:cadetblue;
+    background-color: yellow;
+}
+
+input[type="radio"]:checked +label{
+    color: #e41b1b;
+    font-weight: bold;
+}
+
+/* pseudo Elements for use a specific part  */
+
+h1::first-letter{
+    color: green;
+}
+
+/* selection property using for when area selectesd part then change property like color */
+h1::selection{
+    background-color: black;
+    color:silver;
+}
+
+h4{
+    color:pink;
+
+}
+#greet{
+    color:yellow;
+}
+.myclass{
+    color:brown;
+}

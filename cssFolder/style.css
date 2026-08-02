@@ -1,5 +1,5 @@
 
-h1 {
+/* h1 {
     color: green;
     background-color: palevioletred;
     
@@ -25,14 +25,14 @@ p{
 }
 
 h3{
-    color: #ffffff;
+    color: rgb(255,255, 255);
     background-color: #0000ff;
     animation: arr 1s infinite;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     
-}
+} */
 
-@keyframes arr{
+/* @keyframes arr{
     10%{
         background-color: red;
     }
@@ -46,4 +46,51 @@ h3{
         background-color: chartreuse;
     }
 
+} */
+
+h5{
+    text-align: center;
+    background-color: #0000ff;
+    /* justify-content: center; */
+    
+    border:solid;
+    width: 100%;   
+}
+
+
+/* text decorat */
+
+/* h1{ */
+    text-decoration: red underline;
+    line-height: 0.5;
+}
+
+/* text decorarion through uses of line cut  */
+
+p{
+    text-decoration:wavy burlywood line-through;
+    line-height: 1.5;
+    font-weight: 650;
+    letter-spacing: 1px;
+    
+}
+
+h1{
+    font-family: league spartan;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    
+    
+  text-transform: uppercase;
+  
+
+   
+
+
+
+    text-decoration:skyblue double underline;
+    color: #ffa511;
 }
