@@ -1,0 +1,40 @@
+.inner{
+    height: 250px;
+    width: 250px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+#outer{
+    height: 820px;
+    width: 300px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 40%;
+    border-radius: 55px;
+    background-color: black;
+    
+}
+
+#red{
+background-color:red;
+    
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: greenyellow;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin: 50px;
+}
