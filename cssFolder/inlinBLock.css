@@ -1,0 +1,36 @@
+div{
+    color:bisque
+}
+
+
+span{
+    background-color:red;
+   border: solid;
+   border-color: rgb(24, 246, 205);
+   padding: 10px;
+   margin: 10px
+   
+   
+}
+#inline{
+     background-color:red;
+   border: solid;
+   border-color: rgb(24, 246, 205);
+   padding: 10px;
+   margin: 10px
+   
+}
+
+.inline{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-color: black;
+
+    border: 15px;
+    margin:5px;
+    
+    
+    
+    
+}

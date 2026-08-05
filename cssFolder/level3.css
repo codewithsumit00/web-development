@@ -1,0 +1,60 @@
+#box1{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border:5px black dotted;
+    margin-top: 100px;
+    margin-right: 1em;
+    margin-bottom: 50px;
+    margin-left: 2em;
+    padding: 1em;
+    border-radius: 20px;
+    
+
+    
+}
+
+div{
+     text-align: center;
+    padding: 20px;
+    margin: 29px;
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: solid 2px black;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 90px;
+
+} 
+
+#inlin{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    border-radius: 50%;
+    
+}
+
+li{
+    font-size: 100px;
+    background-color: black;
+    display: inline;
+    margin: 5px;
+    color: crimson;
+}
+
+ul{
+    display: inline;
+}
+
+h1{
+    background-color: greenyellow;
+    border: 18px red solid;
+    width: 30%;
+    font-size: 159px;
+    margin: 40px;
+    
+    
+}
+
