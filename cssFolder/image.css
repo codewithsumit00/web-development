@@ -1,0 +1,67 @@
+/* #photo{
+    background-color: green;
+    height: 1500px;
+    width: 1500px;
+    margin: 10px auto;
+    margin-top: 30px;
+    background-image: url("photo unplash.avif");
+background-size: cover;      
+} */
+
+
+.card{
+    height: 250px;
+    width: 250px;
+    border: solid balck 5px;
+    margin: 10px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 40px;
+    color: white;
+    box-shadow: 0 4px 8px;
+    background-color: rgb(158, 107, 172);
+
+    
+}
+
+img{
+    width: 100px;
+    padding: 20px;
+    border-radius: 30%;
+    width: 220px;
+}
+
+
+body{
+    background-color: black;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px;
+    transition: 2s;
+}
+
+h3{
+    border: solid 2px rgb(24, 31, 99);
+    text-align: center;
+}
+
+h3:hover{
+    box-shadow: 0 4px 8px;
+    color: brown;
+    transition: 2s;
+
+}
+
+p{
+    
+    border: solid 2px rgb(24, 31, 99);
+    text-align: center;
+}
+
+p:hover{
+    box-shadow: 0 4px 8px;
+    color: brown;
+}
+
+

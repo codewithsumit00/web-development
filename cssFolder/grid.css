@@ -1,0 +1,53 @@
+#container{
+    border: 2px black solid;
+    background-color:black;
+    height: auto;
+    width: auto;
+    display: grid;
+    /* grid-template-rows: auto auto auto; */
+    /* grid-template-columns:  auto auto auto; */
+    /* grid-template-rows:repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
+*/
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 15px;
+    justify-items: center;
+    /* animation-name: fontAnimation;
+    animation-duration: 10s;
+    animation-timing-function: 3s;
+    animation-delay: 3s;
+ */
+
+}
+
+
+
+
+div{
+    text-align: justify;
+    background-color: greenyellow;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    border: black 3px solid;
+   text-align: center;
+   font-size:55px;
+   color:azure;
+    /* animation-name: fontAnimation;
+    animation-duration: 10s;
+    animation-timing-function: 3s;
+    animation-delay: 3s; */
+    
+
+   
+   
+}
+
+@keyframes fontAnimation{
+    from{
+        font-size: size 15px;
+    } to {
+        font-size: 40px;
+    }
+}
