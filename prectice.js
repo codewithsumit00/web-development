@@ -9,18 +9,37 @@
 
 // }
 
-getele(array,num);
+// getele(array,num);
 
-let str = "abcdkgnefghtij";
+// let str = "abcdkgnefghtij";
 
-function ansd ( str){
-    let ans = ""
-    for (let i=0; i<str.length; i++){
-        let curr =str[i];
-            if(ans.indexOf(curr)==-1){
-                ans += curr;
-        } 
+// function ansd ( str){
+//     let ans = ""
+//     for (let i=0; i<str.length; i++){
+//         let curr =str[i];
+//             if(ans.indexOf(curr)==-1){
+//                 ans += curr;
+//         } 
+//     }
+//     return ans ;
+// }
+// ansd(str);
+
+let country= ["australia" ,"Germany ", "united states of America"];
+
+
+function longest(country){
+
+    let anslength = 0;
+for( let i=1; i<length.country; i++){
+  
+    let anslen = country[anslength].length;
+    let currlength =country[i].length;
+    if (currlength > anslen){
+        anslength =i;
     }
-    return ans ;
 }
-ansd(str);
+return country[anslength];
+}
+
+longest(country);
