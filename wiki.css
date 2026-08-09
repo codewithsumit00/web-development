@@ -1,6 +1,17 @@
-body {
+/* body {
   font-family: Arial;
 }
+
+.red{
+  color: red;
+  text-decoration: underline black wavy;
+}
+
+.about{
+  color: navy;
+  text-decoration: underline solid green ;
+}
+
 
 #mainImg {
   width: 35%;
@@ -25,4 +36,13 @@ body {
 
 #description {
   background-color: antiquewhite;
+} */
+
+
+.red{
+  color: yellow;
+}
+
+.box{
+  border:  2px black solid;
 }
